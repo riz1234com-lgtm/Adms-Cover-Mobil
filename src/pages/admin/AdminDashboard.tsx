@@ -46,8 +46,8 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({ navigate }) => {
   >('overview');
 
   // Login Form States (if unauthenticated)
-  const [loginUsername, setLoginUsername] = useState('admin');
-  const [loginPassword, setLoginPassword] = useState('admin123');
+  const [loginUsername, setLoginUsername] = useState('');
+  const [loginPassword, setLoginPassword] = useState('');
   const [isLoggingIn, setIsLoggingIn] = useState(false);
 
   // Data States
@@ -269,7 +269,9 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({ navigate }) => {
                 type="text"
                 value={loginUsername}
                 onChange={e => setLoginUsername(e.target.value)}
-                className="w-full px-4 py-3 rounded-xl bg-[#0A0C10] border border-[#1F2634] text-white font-medium focus:outline-none focus:border-[#F27D26]"
+                placeholder="Masukkan username atau email"
+                autoComplete="username"
+                className="w-full px-4 py-3 rounded-xl bg-[#0A0C10] border border-[#1F2634] text-white font-medium focus:outline-none focus:border-[#F27D26] placeholder:text-zinc-600"
                 required
               />
             </div>
@@ -280,7 +282,9 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({ navigate }) => {
                 type="password"
                 value={loginPassword}
                 onChange={e => setLoginPassword(e.target.value)}
-                className="w-full px-4 py-3 rounded-xl bg-[#0A0C10] border border-[#1F2634] text-white font-medium focus:outline-none focus:border-[#F27D26]"
+                placeholder="Masukkan password admin"
+                autoComplete="current-password"
+                className="w-full px-4 py-3 rounded-xl bg-[#0A0C10] border border-[#1F2634] text-white font-medium focus:outline-none focus:border-[#F27D26] placeholder:text-zinc-600"
                 required
               />
             </div>
