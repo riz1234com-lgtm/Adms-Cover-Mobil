@@ -1,0 +1,6 @@
+{
+  "name": "ADMS COVER MOBIL",
+  "description": "Website e-commerce profesional ADMS COVER MOBIL - Toko online sarung dan cover pelindung mobil berkualitas premium dengan sistem pemesanan langsung via WhatsApp dan Dashboard Admin lengkap.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
