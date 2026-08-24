@@ -9,7 +9,7 @@ interface FooterProps {
 
 export const Footer: React.FC<FooterProps> = ({ navigate }) => {
   const { settings, categories } = useStore();
-  const waClean = cleanWhatsAppNumber(settings.whatsappNumber || '6281234567890');
+  const waClean = cleanWhatsAppNumber(settings.whatsappNumber || '6282116095618');
 
   const handleNav = (path: string) => {
     navigate(path);

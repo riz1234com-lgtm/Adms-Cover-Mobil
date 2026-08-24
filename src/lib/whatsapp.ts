@@ -31,7 +31,7 @@ export function buildSingleProductWhatsAppUrl(
   variant: { size?: string; color?: string; quantity?: number },
   productUrl?: string
 ): string {
-  const waNumber = cleanWhatsAppNumber(settings.whatsappNumber || '6281234567890');
+  const waNumber = cleanWhatsAppNumber(settings.whatsappNumber || '6282116095618');
   const size = variant.size || (product.sizes && product.sizes[0]) || 'Standar';
   const color = variant.color || (product.colors && product.colors[0]) || 'Standar';
   const quantity = variant.quantity || 1;
@@ -64,7 +64,7 @@ export function buildCartWhatsAppUrl(
   settings: StoreSettings,
   cartItems: CartItem[]
 ): string {
-  const waNumber = cleanWhatsAppNumber(settings.whatsappNumber || '6281234567890');
+  const waNumber = cleanWhatsAppNumber(settings.whatsappNumber || '6282116095618');
   
   if (!cartItems || cartItems.length === 0) {
     return `https://wa.me/${waNumber}?text=${encodeURIComponent(`Halo ${settings.storeName}, saya ingin bertanya mengenai produk cover mobil.`)}`;
@@ -101,7 +101,7 @@ export function buildGeneralInquiryWhatsAppUrl(
   settings: StoreSettings,
   customText?: string
 ): string {
-  const waNumber = cleanWhatsAppNumber(settings.whatsappNumber || '6281234567890');
+  const waNumber = cleanWhatsAppNumber(settings.whatsappNumber || '6282116095618');
   const defaultText = customText || `Halo ${settings.storeName || 'ADMS COVER MOBIL'}, saya ingin bertanya mengenai produk cover mobil.`;
   return `https://wa.me/${waNumber}?text=${encodeURIComponent(defaultText)}`;
 }
@@ -113,7 +113,7 @@ export function buildCarConsultationWhatsAppUrl(
   year?: string,
   notes?: string
 ): string {
-  const waNumber = cleanWhatsAppNumber(settings.whatsappNumber || '6281234567890');
+  const waNumber = cleanWhatsAppNumber(settings.whatsappNumber || '6282116095618');
   const message = `Halo ${settings.storeName || 'ADMS COVER MOBIL'} 👋
 
 Saya mau konsultasi ukuran cover mobil:

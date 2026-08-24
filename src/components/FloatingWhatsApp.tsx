@@ -8,7 +8,7 @@ export const FloatingWhatsApp: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [customMsg, setCustomMsg] = useState('');
 
-  const waClean = cleanWhatsAppNumber(settings.whatsappNumber || '6281234567890');
+  const waClean = cleanWhatsAppNumber(settings.whatsappNumber || '6282116095618');
 
   const handleSendCustom = (e: React.FormEvent) => {
     e.preventDefault();

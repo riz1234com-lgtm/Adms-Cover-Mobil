@@ -53,11 +53,11 @@ export const Navbar: React.FC<NavbarProps> = ({ currentPath, navigate }) => {
         </div>
         <div className="flex items-center gap-4">
           <a
-            href={`tel:${settings.phone || '+6281234567890'}`}
+            href={`tel:${settings.phone || '+6282116095618'}`}
             className="flex items-center gap-1.5 hover:text-white transition-colors"
           >
             <Phone className="w-3.5 h-3.5" />
-            <span>{settings.phone || '0812-3456-7890'}</span>
+            <span>{settings.phone || '+62 821-1609-5618'}</span>
           </a>
           <span className="text-zinc-700">|</span>
           <button

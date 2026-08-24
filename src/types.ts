@@ -67,7 +67,9 @@ export interface StoreSettings {
   slogan: string;
   logo: string;
   favicon: string;
-  whatsappNumber: string; // e.g. '6281234567890'
+  whatsappNumber: string; // e.g. '6282116095618'
+  whatsappDisplay?: string;
+  whatsappTemplate?: string;
   phone: string;
   email: string;
   address: string;

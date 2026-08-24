@@ -1,0 +1,603 @@
+{
+  "settings": {
+    "storeName": "ADMS COVER MOBIL",
+    "slogan": "Lindungi Mobil Anda, Setiap Saat.",
+    "logo": "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?w=300&auto=format&fit=crop&q=80",
+    "favicon": "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?w=64&auto=format&fit=crop&q=80",
+    "whatsappNumber": "6282116095618",
+    "phone": "+62 821-1609-5618",
+    "whatsappDisplay": "+62 821-1609-5618",
+    "email": "info@admscovermobil.com",
+    "address": "Jl. Otomotif Raya No. 88, Sentra Aksesoris Mobil, Jakarta Timur, DKI Jakarta 13420",
+    "operatingHours": "Senin - Minggu: 08.00 - 21.00 WIB (Respon Cepat via WhatsApp)",
+    "instagram": "https://instagram.com/admscovermobil",
+    "facebook": "https://facebook.com/admscovermobil",
+    "tiktok": "https://tiktok.com/@admscovermobil",
+    "storeDescription": "ADMS COVER MOBIL adalah produsen dan distributor resmi sarung/cover pelindung mobil premium di Indonesia. Menggunakan bahan berkualitas tinggi dengan teknologi 4-lapisan tahan air, anti-UV, dan lapisan dalam ekstra lembut yang tidak merusak cat mobil Anda.",
+    "seoTitle": "ADMS COVER MOBIL - Jual Cover & Sarung Mobil Premium Anti Air & Panas",
+    "seoDescription": "Jual sarung dan cover mobil outdoor & indoor berkualitas premium. 100% anti air, perlindungan sinar UV matahari, tahan debu, dan anti gores. Pesan mudah langsung via WhatsApp!",
+    "mapsEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126920.28318765275!2d106.759478!3d-6.2297465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3e80f63fc91%3A0x280e22709e9903c0!2sJakarta!5e0!3m2!1sid!2sid!4v1625123456789!5m2!1sid!2sid",
+    "enableStockWarning": true
+  },
+  "categories": [
+    {
+      "id": "cat-outdoor",
+      "name": "Cover Mobil Outdoor",
+      "slug": "cover-mobil-outdoor",
+      "description": "Perlindungan maksimal cuaca ekstrim, hujan deras, panas matahari terik, dan kotoran getah pohon untuk mobil parkir luar.",
+      "image": "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?w=800&auto=format&fit=crop&q=80",
+      "icon": "Shield",
+      "isActive": true,
+      "productCount": 4
+    },
+    {
+      "id": "cat-indoor",
+      "name": "Cover Mobil Indoor",
+      "slug": "cover-mobil-indoor",
+      "description": "Bahan breathable super lembut dan anti debu untuk mobil yang terparkir di garasi tertutup. Aman dari cakaran hewan.",
+      "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&auto=format&fit=crop&q=80",
+      "icon": "Home",
+      "isActive": true,
+      "productCount": 2
+    },
+    {
+      "id": "cat-waterproof",
+      "name": "Cover Anti Air (Waterproof)",
+      "slug": "cover-anti-air",
+      "description": "Teknologi efek daun talas (lotus effect) dengan jahitan double seam seal anti rembes hingga 99.9%.",
+      "image": "https://images.unsplash.com/photo-1520340356584-f9917d1eea6f?w=800&auto=format&fit=crop&q=80",
+      "icon": "Droplets",
+      "isActive": true,
+      "productCount": 3
+    },
+    {
+      "id": "cat-anti-uv",
+      "name": "Cover Anti UV",
+      "slug": "cover-anti-uv",
+      "description": "Lapisan aluminium silver coating reflektif menolak 98% radiasi sinar UV, menjaga suhu kabin tetap adem.",
+      "image": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&auto=format&fit=crop&q=80",
+      "icon": "Sun",
+      "isActive": true,
+      "productCount": 2
+    },
+    {
+      "id": "cat-sedan",
+      "name": "Cover Mobil Sedan",
+      "slug": "cover-sedan",
+      "description": "Didesain presisi untuk mobil tipe Sedan & Hatchback (Civic, City, Vios, Camry, Corolla, Brio, Yaris, Mazda 3).",
+      "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800&auto=format&fit=crop&q=80",
+      "icon": "Car",
+      "isActive": true,
+      "productCount": 2
+    },
+    {
+      "id": "cat-mpv",
+      "name": "Cover Mobil MPV",
+      "slug": "cover-mpv",
+      "description": "Ukuran pas untuk mobil keluarga MPV (Avanza, Xenia, Xpander, Ertiga, Innova, Stargazer, Serena, Alphard).",
+      "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=800&auto=format&fit=crop&q=80",
+      "icon": "Truck",
+      "isActive": true,
+      "productCount": 3
+    },
+    {
+      "id": "cat-suv",
+      "name": "Cover Mobil SUV",
+      "slug": "cover-suv",
+      "description": "Cover tinggi dan kokoh untuk SUV & Crossover (Pajero Sport, Fortuner, CR-V, HR-V, Raize, Rocky, Creta, Palisade).",
+      "image": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&auto=format&fit=crop&q=80",
+      "icon": "Compass",
+      "isActive": true,
+      "productCount": 3
+    },
+    {
+      "id": "cat-custom",
+      "name": "Cover Mobil Custom",
+      "slug": "cover-custom",
+      "description": "Cover pesanan khusus sesuai bentuk bodykit, spoiler, roofrack, kombinasi 2 warna, dan bordir logo mobil.",
+      "image": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?w=800&auto=format&fit=crop&q=80",
+      "icon": "Wrench",
+      "isActive": true,
+      "productCount": 2
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-001",
+      "name": "Cover Mobil Premium Outdoor 4-Layer All Weather",
+      "slug": "cover-mobil-premium-outdoor-4-layer",
+      "sku": "ACM-OUT-001",
+      "description": "Cover Mobil ADMS Premium Outdoor 4-Layer dirancang khusus untuk perlindungan mobil maksimal di luar ruangan (parkir tanpa atap). Menggabungkan 4 lapisan material canggih: Lapisan luar Anti-UV reflektif, lapisan kedua membran waterproof tahan hujan deras, lapisan ketiga peredam panas, dan lapisan terdalam cotton fleece super halus yang melindungi clear coat cat mobil dari goresan.\n\nDilengkapi dengan pengunci karet keliling elastis 360 derajat dan 4 tali pengikat ke velg mobil agar tidak terbang saat angin kencang.",
+      "shortDescription": "Perlindungan luar ruangan ekstrim 4 lapis. 100% Anti Air (Lotus Effect), Anti-UV reflektif, dan lapisan dalam soft cotton tidak menggores cat.",
+      "categoryId": "cat-outdoor",
+      "categoryName": "Cover Mobil Outdoor",
+      "costPrice": 210000,
+      "sellingPrice": 385000,
+      "discountPrice": 295000,
+      "stock": 45,
+      "isBestSeller": true,
+      "isPromo": true,
+      "isFeatured": true,
+      "isActive": true,
+      "images": [
+        "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1520340356584-f9917d1eea6f?w=800&auto=format&fit=crop&q=80"
+      ],
+      "sizes": [
+        "M (City Car)",
+        "L (Sedan/Small MPV)",
+        "XL (Medium MPV/SUV)",
+        "XXL (Large SUV/Van)",
+        "Custom Bodykit"
+      ],
+      "colors": [
+        "Silver Reflective",
+        "Hitam Carbon",
+        "Abu-abu Titanium",
+        "Navy Blue"
+      ],
+      "material": "4-Layer Oxford Fabric + Nano Coating + Cotton Fleece Lining",
+      "coverType": "Outdoor Heavy Duty",
+      "vehicleCompatibility": "Avanza, Xenia, Xpander, Ertiga, Innova, HR-V, CR-V, Fortuner, Pajero, BR-V, Raize, Rocky, Stargazer, dll.",
+      "specifications": {
+        "Tingkat Waterproof": "99.9% Waterproof (Water repellent lotus effect)",
+        "Perlindungan UV": "Up to 98% UV Block Reflection",
+        "Lapisan Dalam": "Ultra Soft Cotton Fleece (Aman untuk cat coating & nano keramik)",
+        "Fitur Keamanan": "Karet Full Keliling + 4 Tali Pengait Velg Anti Terbang + Strip Reflektor Malam",
+        "Ketebalan": "0.35 mm (Heavy Duty Premium Grade)",
+        "Kelengkapan": "Tas Penyimpanan Eksklusif ADMS + Cover Mobil"
+      },
+      "weight": 2400,
+      "rating": 4.9,
+      "reviewCount": 142,
+      "viewCount": 1250,
+      "waClickCount": 384,
+      "createdAt": "2026-01-10T10:00:00.000Z",
+      "updatedAt": "2026-02-20T14:30:00.000Z"
+    },
+    {
+      "id": "prod-002",
+      "name": "Cover Mobil Anti Air Ultimate Storm-Shield (Lotus Effect)",
+      "slug": "cover-mobil-anti-air-ultimate-storm-shield",
+      "sku": "ACM-WAT-002",
+      "description": "Sarung mobil spesialis penahan air hujan ekstrim dan lembab. Dilengkapi jahitan presisi ultrasonic double seam sealing dan teknologi hidrofobik daun talas berdaya tolak tinggi. Air hujan seketika mengalir turun tanpa merembes ke pori-pori mobil.",
+      "shortDescription": "Teknologi hidrofobik Lotus Effect dengan jahitan double sealed tahan hujan badai.",
+      "categoryId": "cat-waterproof",
+      "categoryName": "Cover Anti Air (Waterproof)",
+      "costPrice": 195000,
+      "sellingPrice": 345000,
+      "discountPrice": 265000,
+      "stock": 38,
+      "isBestSeller": true,
+      "isPromo": true,
+      "isFeatured": true,
+      "isActive": true,
+      "images": [
+        "https://images.unsplash.com/photo-1520340356584-f9917d1eea6f?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?w=800&auto=format&fit=crop&q=80"
+      ],
+      "sizes": [
+        "M (City Car)",
+        "L (Sedan)",
+        "XL (MPV/SUV)",
+        "XXL (Big SUV)"
+      ],
+      "colors": [
+        "Hitam Glossy",
+        "Silver Metallic",
+        "Dark Grey"
+      ],
+      "material": "High-Density Polyester Ripstop 300D with PU Coating",
+      "coverType": "All-Weather Waterproof",
+      "vehicleCompatibility": "Innova Reborn / Zenix, Pajero Sport, Fortuner, Terios, Rush, Creta, Almaz, Santa Fe, Staria, dll.",
+      "specifications": {
+        "Water Resistance": "Water column pressure > 3500mm",
+        "Jahitan": "Seam Sealed Tape Ultrasonic Protection",
+        "Anti Gores": "Soft Inner Layer (Aman tidak menempel saat panas)",
+        "Tali Pengunci": "Buckle Strap Tengah + 4 Klik Velg",
+        "Berat": "2.1 Kg"
+      },
+      "weight": 2100,
+      "rating": 4.8,
+      "reviewCount": 96,
+      "viewCount": 980,
+      "waClickCount": 260,
+      "createdAt": "2026-01-15T09:00:00.000Z",
+      "updatedAt": "2026-02-18T11:00:00.000Z"
+    },
+    {
+      "id": "prod-003",
+      "name": "Cover Mobil Anti UV Solar-Guard Heat Reflective",
+      "slug": "cover-mobil-anti-uv-solar-guard",
+      "sku": "ACM-SUV-003",
+      "description": "Solusi terbaik untuk mobil yang sering terparkir di bawah sinar matahari langsung. Lapisan silver aluminium coating tingkat tinggi merefleksikan sinar inframerah dan radiasi UV, mencegah dashboard retak, interior pudar, dan menjaga suhu kabin tetap stabil.",
+      "shortDescription": "Memantulkan 98% sinar matahari dan radiasi UV, mencegah cat kusam dan kabin panas.",
+      "categoryId": "cat-anti-uv",
+      "categoryName": "Cover Anti UV",
+      "costPrice": 170000,
+      "sellingPrice": 310000,
+      "discountPrice": 240000,
+      "stock": 52,
+      "isBestSeller": false,
+      "isPromo": true,
+      "isFeatured": true,
+      "isActive": true,
+      "images": [
+        "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?w=800&auto=format&fit=crop&q=80"
+      ],
+      "sizes": [
+        "M (City Car)",
+        "L (Sedan)",
+        "XL (MPV)",
+        "XXL (SUV)"
+      ],
+      "colors": [
+        "Silver Aluminium Reflektor",
+        "Silver Titan Grey"
+      ],
+      "material": "Aluminium Foil Composite + Breathable Microfiber",
+      "coverType": "Sun & Heat Protector",
+      "vehicleCompatibility": "Brio, Yaris, Baleno, City Hatchback, Raize, WR-V, Rocky, Avanza, Mobilio, Grand Livina, dll.",
+      "specifications": {
+        "Refleksi Panas": "Meredam suhu kabin hingga 15°C dibanding cover biasa",
+        "Anti UV Factor": "UPF 50+ Certified Protection",
+        "Bahan Dalam": "Bebas gores microfiber",
+        "Pengait": "Full Karet depan-belakang + Kancing velg"
+      },
+      "weight": 1800,
+      "rating": 4.9,
+      "reviewCount": 78,
+      "viewCount": 844,
+      "waClickCount": 195,
+      "createdAt": "2026-01-20T11:00:00.000Z",
+      "updatedAt": "2026-02-22T08:00:00.000Z"
+    },
+    {
+      "id": "prod-004",
+      "name": "Cover Mobil Sedan & Hatchback Custom-Fit Sport",
+      "slug": "cover-mobil-sedan-custom-fit-sport",
+      "sku": "ACM-SED-004",
+      "description": "Sarung mobil khusus Sedan dan Hatchback dengan potongan aerodinamis presisi mengikuti lekuk bodi, spion, dan lekukan bagasi belakang. Memberikan kesan sporty bahkan saat mobil sedang terparkir.",
+      "shortDescription": "Potongan presisi aerodynamic fit untuk Sedan & Hatchback dengan mirror pocket khusus.",
+      "categoryId": "cat-sedan",
+      "categoryName": "Cover Mobil Sedan",
+      "costPrice": 180000,
+      "sellingPrice": 325000,
+      "discountPrice": 250000,
+      "stock": 25,
+      "isBestSeller": false,
+      "isPromo": false,
+      "isFeatured": false,
+      "isActive": true,
+      "images": [
+        "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?w=800&auto=format&fit=crop&q=80"
+      ],
+      "sizes": [
+        "S (Hatchback Kecil)",
+        "M (Sedan Compact)",
+        "L (Medium Sedan)",
+        "XL (Executive Sedan)"
+      ],
+      "colors": [
+        "Hitam List Merah Sporty",
+        "Silver Elegan",
+        "Abu-abu Matte"
+      ],
+      "material": "Milky Coating Taslan Super Silky Touch",
+      "coverType": "Semi-Outdoor & Indoor Sporty",
+      "vehicleCompatibility": "Civic Turbo, City Sedan, Toyota Vios, Altis, Camry, Mazda 2, Mazda 3, BMW 3 Series, Mercedes C-Class, dll.",
+      "specifications": {
+        "Desain": "Ada kuping spion (Ear Pocket) & List Reflektor Sporty",
+        "Kerapatan Bahan": "Tahan debu 100%, tahan cipratan air & embun malam",
+        "Tali Pengunci": "Karet keliling presisi bodi sedan"
+      },
+      "weight": 1650,
+      "rating": 4.7,
+      "reviewCount": 45,
+      "viewCount": 620,
+      "waClickCount": 140,
+      "createdAt": "2026-02-01T10:00:00.000Z",
+      "updatedAt": "2026-02-21T13:00:00.000Z"
+    },
+    {
+      "id": "prod-005",
+      "name": "Cover Mobil MPV Family Shield (Avanza, Xpander, Innova)",
+      "slug": "cover-mobil-mpv-family-shield",
+      "sku": "ACM-MPV-005",
+      "description": "Didesain khusus untuk mobil keluarga MPV Indonesia. Ukuran pas tidak kedodoran maupun kekecilan, menutupi seluruh bodi hingga bawah ban. Sangat awet dan mudah dilipat oleh satu orang.",
+      "shortDescription": "Ukuran paling pas untuk mobil keluarga MPV populer Indonesia dengan bahan kuat anti robek.",
+      "categoryId": "cat-mpv",
+      "categoryName": "Cover Mobil MPV",
+      "costPrice": 200000,
+      "sellingPrice": 360000,
+      "discountPrice": 275000,
+      "stock": 60,
+      "isBestSeller": true,
+      "isPromo": true,
+      "isFeatured": true,
+      "isActive": true,
+      "images": [
+        "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?w=800&auto=format&fit=crop&q=80"
+      ],
+      "sizes": [
+        "Size MPV Compact (Avanza/Xpander/Ertiga/Stargazer)",
+        "Size MPV Medium (Innova Reborn/Zenix/Sienta)",
+        "Size MPV Large (Alphard/Vellfire/Serena)"
+      ],
+      "colors": [
+        "Silver Black Dual Tone",
+        "Hitam Elegan",
+        "Abu-abu Titanium"
+      ],
+      "material": "Double Coated Polyester Ripstop Water-Repellent",
+      "coverType": "All-Round Outdoor & Indoor",
+      "vehicleCompatibility": "Toyota Avanza, Veloz, Daihatsu Xenia, Mitsubishi Xpander, Suzuki Ertiga, XL7, Toyota Innova Zenix / Reborn, Nissan Livina, Hyundai Stargazer.",
+      "specifications": {
+        "Dimensi": "Tersedia varian khusus per tipe MPV agar presisi",
+        "Fitur": "4 Pengikat Velg + Karet Bawah + Tas Simpan Portabel",
+        "Daya Tahan": "Bahan tidak mudah robek, tahan gesekan ranting"
+      },
+      "weight": 2200,
+      "rating": 4.9,
+      "reviewCount": 210,
+      "viewCount": 2100,
+      "waClickCount": 650,
+      "createdAt": "2026-01-05T08:00:00.000Z",
+      "updatedAt": "2026-02-23T16:00:00.000Z"
+    },
+    {
+      "id": "prod-006",
+      "name": "Cover Mobil SUV & Crossover Heavy Armor Edition",
+      "slug": "cover-mobil-suv-heavy-armor",
+      "sku": "ACM-SUV-006",
+      "description": "Cover kokoh dirancang untuk mobil bodi jangkung (SUV & Crossover). Tahan terpaan angin badai dan panas tropis terik. Material tebal dengan perlindungan maksimal dari goresan dan kotoran burung / getah pohon.",
+      "shortDescription": "Desain bodi tinggi SUV dengan jahitan diperkuat dan tali pengunci ekstra kokoh.",
+      "categoryId": "cat-suv",
+      "categoryName": "Cover Mobil SUV",
+      "costPrice": 230000,
+      "sellingPrice": 420000,
+      "discountPrice": 325000,
+      "stock": 35,
+      "isBestSeller": true,
+      "isPromo": true,
+      "isFeatured": true,
+      "isActive": true,
+      "images": [
+        "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?w=800&auto=format&fit=crop&q=80"
+      ],
+      "sizes": [
+        "L (Compact SUV/Crossover: HR-V, Creta, Raize, Rocky)",
+        "XL (Medium SUV: CR-V, Santa Fe, CX-5, Almaz)",
+        "XXL (Large SUV: Pajero Sport, Fortuner, Palisade, Land Cruiser)"
+      ],
+      "colors": [
+        "Hitam Carbon Doff",
+        "Silver Titanium",
+        "Army Green Dark"
+      ],
+      "material": "Heavy Weight 4-Ply Composite Ripstop + Fleece",
+      "coverType": "Heavy Armor SUV Series",
+      "vehicleCompatibility": "Toyota Fortuner, Mitsubishi Pajero Sport, Honda HR-V, CR-V, Hyundai Palisade, Hyundai Creta, Toyota Raize, Daihatsu Rocky, Wuling Almaz, Mazda CX-5.",
+      "specifications": {
+        "Tinggi Cover": "Desain ekstra tinggi menutupi ban SUV bodi jangkung",
+        "Tali Pengunci": "4 Tali Pengait Velg + Buckle Strap Bawah Bodi",
+        "Reflektor": "4 Strip Reflektif Fosfor Menyala Terang di Malam Hari"
+      },
+      "weight": 2600,
+      "rating": 4.9,
+      "reviewCount": 165,
+      "viewCount": 1650,
+      "waClickCount": 480,
+      "createdAt": "2026-01-08T12:00:00.000Z",
+      "updatedAt": "2026-02-22T15:00:00.000Z"
+    },
+    {
+      "id": "prod-007",
+      "name": "Cover Mobil Indoor Velvet Satin Luxury (Garasi Tertutup)",
+      "slug": "cover-mobil-indoor-velvet-satin-luxury",
+      "sku": "ACM-IND-007",
+      "description": "Sarung mobil mewah khusus garasi indoor. Dibuat dari material stretch satin velvet ultra lembut berpori halus yang sangat breathable. Menghindari kondensasi embun, bebas debu mikro, dan memberikan tampilan show-car eksklusif pada mobil kesayangan Anda.",
+      "shortDescription": "Material stretch satin velvet super halus berkelas untuk proteksi garasi indoor.",
+      "categoryId": "cat-indoor",
+      "categoryName": "Cover Mobil Indoor",
+      "costPrice": 220000,
+      "sellingPrice": 395000,
+      "discountPrice": 310000,
+      "stock": 20,
+      "isBestSeller": false,
+      "isPromo": false,
+      "isFeatured": true,
+      "isActive": true,
+      "images": [
+        "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800&auto=format&fit=crop&q=80"
+      ],
+      "sizes": [
+        "M (Hatchback/Sedan)",
+        "L (Medium MPV/Sedan)",
+        "XL (SUV/Large Car)"
+      ],
+      "colors": [
+        "Merah Marun Mewah",
+        "Hitam Midnight",
+        "Biru Safir Elegan"
+      ],
+      "material": "High Elastic Breathable Satin Velvet Fabric",
+      "coverType": "Luxury Indoor Garage",
+      "vehicleCompatibility": "Semua jenis mobil garasi tertutup: Sedan mewah, Sports car, Mobil Klasik, Mobil harian yang ingin selalu kinclong tanpa debu.",
+      "specifications": {
+        "Elastisitas": "Stretchable 15% mengikuti lekuk indah bodi mobil",
+        "Sirkulasi Udara": "100% Breathable mencegah jamur & lembab",
+        "Lapisan Cat": "Zero Scratch Guarantee - paling aman di dunia"
+      },
+      "weight": 1500,
+      "rating": 5,
+      "reviewCount": 38,
+      "viewCount": 520,
+      "waClickCount": 110,
+      "createdAt": "2026-02-05T14:00:00.000Z",
+      "updatedAt": "2026-02-23T10:00:00.000Z"
+    },
+    {
+      "id": "prod-008",
+      "name": "Cover Mobil Custom 2-Tone + Bordir Logo & Nama",
+      "slug": "cover-mobil-custom-2-tone-bordir",
+      "sku": "ACM-CUS-008",
+      "description": "Layanan cover mobil custom made-by-order. Anda dapat menentukan kombinasi 2 pilihan warna, penyesuaian bodi kit / spoiler balap / roofrack tenda / tanduk depan, serta penambahan sablon/bordir nama pemilik atau logo komunitas mobil.",
+      "shortDescription": "Custom made-by-order sesuai modifikasi mobil, kombinasi warna favorit, dan sablon logo.",
+      "categoryId": "cat-custom",
+      "categoryName": "Cover Mobil Custom",
+      "costPrice": 260000,
+      "sellingPrice": 475000,
+      "discountPrice": 385000,
+      "stock": 999,
+      "isBestSeller": true,
+      "isPromo": true,
+      "isFeatured": true,
+      "isActive": true,
+      "images": [
+        "https://images.unsplash.com/photo-1580273916550-e323be2ae537?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?w=800&auto=format&fit=crop&q=80"
+      ],
+      "sizes": [
+        "Custom Size Sesuai Tipe Mobil Anda & Modifikasi"
+      ],
+      "colors": [
+        "Custom Kombinasi 2 Warna Bebas Pilih",
+        "Hitam Strip Merah",
+        "Hitam Strip Kuning Sport",
+        "Navy Strip Silver"
+      ],
+      "material": "Premium WP Coating + Double Sealing (Custom Request)",
+      "coverType": "Custom Tailored Edition",
+      "vehicleCompatibility": "Semua merk dan tipe mobil (Standar maupun yang sudah modifikasi bodykit, spoiler tinggi, ban gantung, roofrack, dll.)",
+      "specifications": {
+        "Waktu Pengerjaan": "1-2 Hari Kerja Presisi Jahitan Rapi",
+        "Kustomisasi": "Ukuran khusus, Kuping spion custom, Bordir/Sablon Nama/Logo",
+        "Bahan Pilihan": "Tersedia pilihan Outdoor Heavy Duty atau Indoor Luxury"
+      },
+      "weight": 2300,
+      "rating": 5,
+      "reviewCount": 84,
+      "viewCount": 1100,
+      "waClickCount": 420,
+      "createdAt": "2026-01-12T15:00:00.000Z",
+      "updatedAt": "2026-02-24T09:00:00.000Z"
+    }
+  ],
+  "sales": [
+    {
+      "id": "sale-001",
+      "productId": "prod-001",
+      "productName": "Cover Mobil Premium Outdoor 4-Layer (XL - Hitam)",
+      "customerName": "Ahmad Fauzi",
+      "customerWhatsApp": "6281388992211",
+      "quantity": 1,
+      "costPrice": 210000,
+      "sellingPrice": 295000,
+      "totalRevenue": 295000,
+      "totalCost": 210000,
+      "profit": 85000,
+      "date": "2026-02-23",
+      "notes": "Pesan via WA - Dikirim via JNE YES ke Depok",
+      "status": "Selesai"
+    },
+    {
+      "id": "sale-002",
+      "productId": "prod-006",
+      "productName": "Cover Mobil SUV Heavy Armor (XXL - Silver)",
+      "customerName": "Kevin Wijaya",
+      "customerWhatsApp": "628567891234",
+      "quantity": 2,
+      "costPrice": 230000,
+      "sellingPrice": 325000,
+      "totalRevenue": 650000,
+      "totalCost": 460000,
+      "profit": 190000,
+      "date": "2026-02-22",
+      "notes": "Order 2 pcs untuk Fortuner dan Pajero Sport",
+      "status": "Selesai"
+    },
+    {
+      "id": "sale-003",
+      "productId": "prod-008",
+      "productName": "Cover Mobil Custom 2-Tone (Custom Civic Bodykit)",
+      "customerName": "Satria Dewa",
+      "customerWhatsApp": "6287712349988",
+      "quantity": 1,
+      "costPrice": 260000,
+      "sellingPrice": 385000,
+      "totalRevenue": 385000,
+      "totalCost": 260000,
+      "profit": 125000,
+      "date": "2026-02-20",
+      "notes": "Kombinasi Hitam Strip Merah + Bordir Civic Turbo",
+      "status": "Selesai"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "rev-001",
+      "productId": "prod-001",
+      "productName": "Cover Mobil Premium Outdoor 4-Layer All Weather",
+      "userName": "Bambang Sudibyo",
+      "userLocation": "Bekasi Barat",
+      "carModel": "Innova Zenix 2024",
+      "rating": 5,
+      "comment": "Mantap banget cover dari ADMS! Mobil saya parkir di carport terbuka kena hujan deras kemarin malam, pas dibuka pagi-pagi bodi mobil tetap kering kinclong tanpa ada rembesan sama sekali. Lapisan dalamnya beneran lembut gak bikin baret.",
+      "date": "2026-02-18",
+      "isVerifiedBuyer": true
+    },
+    {
+      "id": "rev-002",
+      "productId": "prod-001",
+      "productName": "Cover Mobil Premium Outdoor 4-Layer All Weather",
+      "userName": "Hendri Pratama",
+      "userLocation": "Surabaya Timur",
+      "carModel": "Pajero Sport Dakar",
+      "rating": 5,
+      "comment": "Pemesanan lewat WhatsApp sangat cepat dan ramah adminnya. Konsultasi ukuran pas bgt untuk Pajero Sport saya. Ada tali ke velg jadi aman waktu angin kencang gak terbang.",
+      "date": "2026-02-14",
+      "isVerifiedBuyer": true
+    },
+    {
+      "id": "rev-003",
+      "productId": "prod-002",
+      "productName": "Cover Mobil Anti Air Ultimate Storm-Shield",
+      "userName": "Rian Kurniawan",
+      "userLocation": "Bandung",
+      "carModel": "Honda HR-V 2023",
+      "rating": 5,
+      "comment": "Efek daun talasnya beneran nyata! Air hujan langsung menggelinding jatuh. Karet bawahnya juga kencang menutupi mobil dengan rapi. Recommended seller!",
+      "date": "2026-02-10",
+      "isVerifiedBuyer": true
+    },
+    {
+      "id": "rev-004",
+      "productId": "prod-005",
+      "productName": "Cover Mobil MPV Family Shield",
+      "userName": "Dedi Irawan",
+      "userLocation": "Tangerang Selatan",
+      "carModel": "Mitsubishi Xpander Ultimate",
+      "rating": 5,
+      "comment": "Beli yang size MPV pas banget di Xpander saya. Bahan tebal tapi ringan saat dilipat dan ditaruh di bagasi. Sukses selalu ADMS COVER MOBIL!",
+      "date": "2026-02-05",
+      "isVerifiedBuyer": true
+    }
+  ],
+  "admins": [
+    {
+      "id": "adm-001",
+      "username": "admin",
+      "passwordHash": "$2b$10$wRs/aokccyhhT7/OhHNooOByX07BWNJz9TTjyJl0XGLW7Zz/XqPiS",
+      "name": "Administrator ADMS",
+      "email": "admin@admscovermobil.com",
+      "role": "superadmin"
+    }
+  ]
+}
